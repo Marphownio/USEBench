@@ -1,7 +1,10 @@
 # USEBench
 
 
-This is the official repository of ***You Can't Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense***. To comprehensively evaluate the impact of jailbreak defense strategies of LLMs from an end-to-end perspective, we propose **USEBench**, consists of **U**-Bench for Utility, **S**-Bench for Safety and
+This is the official repository of ACM WWW'25 [paper](https://marphownio.github.io/pdfs/www25_usebench.pdf):
+>  Wuyuao Mai, Geng Hong, Pei Chen, Xudong Pan, Baojun Liu, Yuan Zhang, Haixin Duan, and Min Yang. 2025. You Can’t Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense. In *Proceedings of the ACM Web Conference 2025 (WWW ’25), April 28–May 2, 2025, Sydney, NSW, Australia.* ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3696410.3714632
+
+To comprehensively evaluate the impact of jailbreak defense strategies of LLMs from an end-to-end perspective, we propose **USEBench**, which consists of **U**-Bench for Utility, **S**-Bench for Safety and
 **E**-Bench for Exaggerated-safety
 
 
@@ -51,7 +54,23 @@ By combining data from these three sub-benches, our research can evaluate the pe
     └── utility_test_prompt.csv
 ```
 
+## Citation
+If you find our work helpful, we would greatly appreciate it if you could cite our paper using the following BibTeX format.
 
+```
+@inproceedings{mai2025usebench,
+     author = {Wuyuao Mai and Geng Hong and Pei Chen and Xudong Pan and Baojun Liu and Yuan Zhang and Haixin Duan and Min Yang},
+     title = {You Can’t Eat Your Cake and Have It Too: The Performance Degradation of LLMs with Jailbreak Defense},
+     booktitle = {Proceedings of the ACM Web Conference 2025 (WWW '25)},
+     year = {2025},
+     month = {April 28--May 2},
+     location = {Sydney, NSW, Australia},
+     publisher = {ACM},
+     address = {New York, NY, USA},
+     pages = {12},
+     doi = {10.1145/3696410.3714632}
+}
+```
 
 
 
